@@ -1,0 +1,142 @@
+﻿td{
+    font-size:17px;
+}
+th {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#container {
+    width: 1280px;
+    margin: 0 auto;
+}
+.container {
+    margin-top: 50px;
+    background-color: white;
+}
+.img-product {
+    width: auto;
+    height: 100px;
+    transition: transform 1s;
+}
+.img-product:hover {
+    transform: scale(1.5);
+}
+.content {
+    height: 80vh;
+    overflow-y: scroll;
+}
+h2{
+    font-size:20px;
+    text-align:center;
+    border:1px solid #333;
+    padding:15px 10px;
+}
+.add_Cart {
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+.option {
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    display: none;
+    position:relative;
+    flex-direction:column;
+}
+.option-submit{
+    display:flex;
+}
+.option-submit input{
+    padding:10px;
+    margin:10px;
+}
+.hide-option {
+    position: absolute;
+    top: 6%;
+    right: 3%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+.hide-option:hover{
+    background-color:#333;
+    color:white;
+}
+.hide-option:hover span{
+    color:white;
+}
+.option-form {
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.option-form span {
+    font-size: 15px;
+}
+.option-form input{
+    padding:5px 10px;
+    margin-top:5px;
+}
+.searchContainer{
+    position:relative;
+}
+.searchBar {
+    position: absolute;
+    top: 0;
+    right: 15%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.searchBar .search{
+    padding:5px;
+    outline:none;
+}
+.SearchBarbtn{
+    padding:5px;
+    margin-left:10px;
+}
+/**/
+.product_left {
+    width: 30%;
+}
+
+.product_right {
+    width: 70%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.product_number {
+    display: flex;
+    /*align-items:center;
+    justify-content:center;*/
+}
+
+.FormNumber {
+    width: 40px;
+}
+
+.Prev,
+.Next {
+    /*padding: 10px;*/
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,.09);
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.fa-minus,
+.fa-plus {
+    color: #888;
+}
